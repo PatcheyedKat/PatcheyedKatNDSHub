@@ -16,4 +16,4 @@ A lightweight custom Roblox hub for Natural Disaster Survival
 ## Loadstring
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PatcheyedKat/NDS/refs/heads/main/PatcheyedKatHubV7.lua", true))()
+loadstring(game:HttpGet("https://github.com/PatcheyedKat/PatcheyedKatNDSHub/blob/main/PatcheyedKat_Hub_V1.lua", true))()
