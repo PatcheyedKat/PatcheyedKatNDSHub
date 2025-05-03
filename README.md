@@ -8,7 +8,7 @@ A lightweight custom Roblox hub for Natural Disaster Survival
   Teleport yourself to every player in the game with one click.
 
 - **Custom Ring V1**  
-  Instantly spawn and equip a customizable ring tool.
+  Makes a ring around your player to fling people using unanchored parts
 
 - **Infinite Yield**  
   Integrates the popular admin commands library for advanced control.
