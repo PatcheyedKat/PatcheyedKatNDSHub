@@ -13,7 +13,7 @@ A lightweight custom Roblox hub for Natural Disaster Survival
 - **Infinite Yield**  
   Integrates the popular admin commands library for advanced control.
 
-## Loadstring
+## Loader
 
 ```lua
 -- If executor supports rconsole
