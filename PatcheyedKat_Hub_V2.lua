@@ -1,4 +1,4 @@
--- PatcheyedKat Hub V1 for Natural Disaster Survival
+-- PatcheyedKat Hub V2 for Natural Disaster Survival
 
 local CoreGui = game:GetService("CoreGui")
 local TweenService = game:GetService("TweenService")
@@ -109,8 +109,8 @@ end
 
 createScriptButton("TPToAll", "https://raw.githubusercontent.com/PatcheyedKat/NDS/refs/heads/main/TpToAll.Lua")
 createScriptButton("Custom Ring V1", "https://raw.githubusercontent.com/PatcheyedKat/NDS/refs/heads/main/Custom%20Ring%20V1.lua")
--- Added Infinite Yield script
 createScriptButton("Infinite Yield", "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
+createScriptButton("TouchFling", "https://raw.githubusercontent.com/PatcheyedKat/NDS/refs/heads/main/TouchFling.lua")
 
 
 do
