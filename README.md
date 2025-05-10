@@ -16,4 +16,35 @@ A lightweight custom Roblox hub for Natural Disaster Survival
 ## Loadstring
 
 ```lua
-loadstring(game:HttpGet("[https://github.com/PatcheyedKat/PatcheyedKatNDSHub/blob/main/PatcheyedKat_Hub_V1.lua](https://raw.githubusercontent.com/PatcheyedKat/PatcheyedKatNDSHub/refs/heads/main/PatcheyedKat_Hub_V2.lua)", true))()
+-- If executor supports rconsole
+if rconsoleprint then
+    rconsoleprint("@@WHITE@@[PatcheyedKat Hub] ")
+    rconsoleprint("@@YELLOW@@Loading V2...!\n")
+else
+    print("[PatcheyedKat Hub] Loading V2...")
+end
+
+wait(1)
+
+-- Fetch and execute the hub
+local url = "https://raw.githubusercontent.com/PatcheyedKat/PatcheyedKatNDSHub/refs/heads/main/PatcheyedKat_Hub_V2.lua"
+local success, err = pcall(function()
+    loadstring(game:HttpGet(url))()
+end)
+
+if success then
+    if rconsoleprint then
+        rconsoleprint("@@WHITE@@[PatcheyedKat Hub] ")
+        rconsoleprint("@@GREEN@@Loaded successfully!\n")
+    else
+        print("[PatcheyedKat Hub] Loaded successfully!")
+    end
+else
+    if rconsoleprint then
+        rconsoleprint("@@WHITE@@[PatcheyedKat Hub] ")
+        rconsoleprint("@@RED@@Failed to load: "..err.."\n")
+    else
+        warn("[PatcheyedKat Hub] Failed to load:", err)
+    end
+end
+
