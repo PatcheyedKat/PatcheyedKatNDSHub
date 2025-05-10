@@ -1,6 +1,6 @@
 # PatcheyedKat Hub for Natural Disaster Survival
 
-A lightweight custom Roblox hub for Natural Disaster Survival
+A custom Roblox hub for Natural Disaster Survival
 
 ## Features
 
@@ -12,6 +12,9 @@ A lightweight custom Roblox hub for Natural Disaster Survival
 
 - **Infinite Yield**  
   Integrates the popular admin commands library for advanced control.
+
+- **TouchFling**
+  Flings a person when touched, great to use with TPToAll
 
 ## Loader
 
